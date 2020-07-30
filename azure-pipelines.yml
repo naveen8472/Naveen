@@ -13,6 +13,7 @@ variables:
   buildConfiguration: 'Release'
 steps:
 # Download NuGet packages and project-specific tools
+
 Settings
 - task: DotNetCoreCLI@2
   displayName: 'dotnet restore'
